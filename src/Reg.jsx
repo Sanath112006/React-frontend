@@ -13,7 +13,7 @@ function Reg(){
     }
     const submit=async()=>{
         try{
-            const res=await axios.post("https://cabsystemsms-1.onrender.com/register",name)
+            const res=await axios.post("https://springboot-backend-3-kih1.onrender.com/register",name)
             alert(res.data)
         }
         catch(xyz){
